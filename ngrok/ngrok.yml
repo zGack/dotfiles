@@ -1,0 +1,4 @@
+version: "3"
+agent:
+    authtoken: 2jyzdmnfTLXVREmGdWsye9J8EGY_t3xWaoifwYbgCAM8po7c
+    console_ui_color: transparent
