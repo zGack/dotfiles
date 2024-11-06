@@ -1,5 +1,7 @@
 promptToReturnFromSubprocess: true
 
+# settings picked from LazyVim '~/.cache/nvim/lazygit-theme.yml'
+
 os:
   editPreset: "nvim-remote"
 gui:
