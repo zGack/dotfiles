@@ -2,27 +2,27 @@ promptToReturnFromSubprocess: true
 
 # settings picked from LazyVim '~/.cache/nvim/lazygit-theme.yml'
 
-os:
-  editPreset: "nvim-remote"
-gui:
-  nerdFontsVersion: 3
-  theme:
-    defaultFgColor:
-      - "#d4be98"
-    cherryPickedCommitFgColor:
-      - "#a9b665"
-    cherryPickedCommitBgColor:
-      - "#7daea3"
-    activeBorderColor:
-      - "bold"
-    unstagedChangesColor:
-      - "#ea6962"
-    selectedLineBgColor:
-      # - "#3c3836"
-      - "#504945" # picked from gruvbox-material hard color palette
-    searchingActiveBorderColor:
-      - "bold"
-    optionsTextColor:
-      - "#a9b665"
-    inactiveBorderColor:
-      - "#928374"
+# gui:
+#   theme:
+#     searchingActiveBorderColor:
+#       - "bold"
+#     optionsTextColor:
+#       - "#a9b665"
+#     inactiveBorderColor:
+#       - "#928374"
+#     defaultFgColor:
+#       - "#d4be98"
+#     cherryPickedCommitFgColor:
+#       - "#a9b665"
+#     cherryPickedCommitBgColor:
+#       - "#7daea3"
+#     activeBorderColor:
+#       - "bold"
+#     unstagedChangesColor:
+#       - "#ea6962"
+#     selectedLineBgColor:
+#       # - "#3c3836"
+#       - "#504945" # picked from gruvbox-material hard color palette
+#   nerdFontsVersion: "3"
+# os:
+#   editPreset: "nvim-remote"

@@ -10,7 +10,7 @@ return {
 
     require("lualine").setup({
       options = {
-        theme = "gruvbox-material",
+        theme = "everforest",
       },
       sections = {
         lualine_c = { "filename", sf_status },
