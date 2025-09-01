@@ -9,6 +9,7 @@ return {
         -- "EdenEast/nightfox.nvim",
         "sainnhe/everforest",
         -- "aktersnurra/no-clown-fiesta.nvim",
+        -- "projekt0n/github-nvim-theme",
         lazy = false,
         priority = 1000,
         -- config = true,
@@ -33,24 +34,17 @@ return {
             -- colorscheme = "tokyonight-storm",
             -- colorscheme = "onedark_vivid",
             -- colorscheme = "gruvbox-material",
+            -- colorscheme = "github_dark",
         },
     },
 
-    -- {
-    --   "mawkler/modicator.nvim",
-    --   dependencies = "sainnhe/gruvbox-material", -- Add your colorscheme plugin here
-    --   init = function()
-    --     -- These are required for Modicator to work
-    --     vim.o.cursorline = true
-    --     vim.o.number = true
-    --     vim.o.termguicolors = true
-    --   end,
-    --   opts = {
-    --     -- Warn if any required option above is missing. May emit false positives
-    --     -- if some other plugin modifies them, which in that case you can just
-    --     -- ignore. Feel free to remove this line after you've gotten Modicator to
-    --     -- work properly.
-    --     show_warnings = true,
-    --   },
-    -- },
+    {
+       "sainnhe/everforest",
+        config = function()
+            vim.g.everforest_background = "hard"
+            vim.g.everforest_better_performance = 1
+            vim.g.everforest_enable_italic = 1
+            vim.cmd.colorscheme("everforest")
+        end,
+    },
 }
