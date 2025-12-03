@@ -241,6 +241,6 @@ set_keymap(
 set_keymap(
   "n",
   "<leader>aoN",
-  "<cmd>lua require('sf').run('sudo sf org assign permset -n Veevart -n Veevart_Non_For_Profit')<cr>",
+  "<cmd>lua require('sf').run('sf org assign permset -n Veevart -n Veevart_Non_For_Profit')<cr>",
   { silent = true, noremap = true, desc = "Assign Veevart Non For Profit permissions sets" }
 )
