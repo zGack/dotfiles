@@ -1,6 +1,8 @@
 return {
     {
         "nvim-treesitter/nvim-treesitter",
+        lazy = false,
+        build = ':TSUpdate',
         opts_extend={"ensure_installed"},
         opts = {
             highlight = {
@@ -54,6 +56,7 @@ return {
                 "vim",
                 "vimdoc",
                 "yaml",
+                "hcl",
             },
             auto_install = true,
             config = function(_, opts)
