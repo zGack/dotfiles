@@ -18,5 +18,11 @@ return {
                 filetypes = { "cls", "trigger", "apex" },
             },
         },
+        setup = {
+            ['terraformls'] = function(server, opts)
+                opts.filetypes = { "terraform", "tf", "hcl", "tfvars" }
+                -- You can add other specific configurations here if needed
+            end,
+        }
     },
 }
